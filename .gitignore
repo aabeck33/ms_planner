@@ -1,0 +1,73 @@
+# =================================
+# Python
+# =================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuição / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# =================================
+# IDEs
+# =================================
+
+.vscode/
+.idea/
+
+# =================================
+# Testes e cobertura
+# =================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# =================================
+# Logs
+# =================================
+
+*.log
+
+# =================================
+# Variáveis de ambiente
+# =================================
+
+.env
+
+# =================================
+# Arquivos Excel gerados
+# =================================
+
+work/*.xlsx
+work/*.xls
+
+# Manter a pasta work no repositório
+!work/.gitkeep
+
+# =================================
+# Arquivos temporários
+# =================================
+
+*.tmp
+*.bak
+~$*.xlsx
+
+# =================================
+# Sistema Operacional
+# =================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
