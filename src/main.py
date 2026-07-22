@@ -1,5 +1,5 @@
 '''
-        Programa para desmembrar as ações do Planner
+        Programa para desmembrar as ações do Planner e criar uma lista de tarefas e um gantt simples.
 
         by Alvaro Adriano Beck
         07/2026
